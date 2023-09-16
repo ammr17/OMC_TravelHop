@@ -1,0 +1,191 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TravelHop
+</name>
+</assembly>
+<members>
+<member name="T:TravelHop.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:TravelHop.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:TravelHop.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSet.AdminDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSet.AgencyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSet.BookingHotelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSet.CustFeedbackDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSet.CustomerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSet.RentalCarDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSet.AdminRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSet.AgencyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSet.BookingHotelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSet.CustFeedbackRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSet.CustomerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSet.RentalCarRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSet.AdminRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSet.AgencyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSet.BookingHotelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSet.CustFeedbackRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSet.CustomerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSet.RentalCarRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSetTableAdapters.AdminTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSetTableAdapters.AgencyTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSetTableAdapters.BookingHotelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSetTableAdapters.CustFeedbackTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSetTableAdapters.CustomerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSetTableAdapters.RentalCarTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TravelHop.OMC_TravelHopDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(TravelHop.OMC_TravelHopDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TravelHop.OMC_TravelHopDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(TravelHop.OMC_TravelHopDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TravelHop.OMC_TravelHopDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(TravelHop.OMC_TravelHopDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TravelHop.OMC_TravelHopDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TravelHop.OMC_TravelHopDataSetTableAdapters.TableAdapterManager.UpdateAll(TravelHop.OMC_TravelHopDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TravelHop.OMC_TravelHopDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

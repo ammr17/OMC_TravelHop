@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BB72D301-CC25-4D8C-9939-A8619444A321}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>TravelHop.My.MyApplication</StartupObject>
+    <RootNamespace>TravelHop</RootNamespace>
+    <AssemblyName>TravelHop</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>TravelHop.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>TravelHop.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo mini transparent.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.Designer.vb">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class1.vb" />
+    <Compile Include="Form9.Designer.vb">
+      <DependentUpon>Form9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgencyLogin.designer.vb">
+      <DependentUpon>frmAgencyLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgencyLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1user.Designer.vb">
+      <DependentUpon>Form1user.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1user.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainPage.designer.vb">
+      <DependentUpon>frmMainPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2user.designer.vb">
+      <DependentUpon>Form2user.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2user.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.vb">
+      <DependentUpon>Form7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.vb">
+      <DependentUpon>Form8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFourPoints.designer.vb">
+      <DependentUpon>frmFourPoints.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFourPoints.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.designer.vb">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.designer.vb">
+      <DependentUpon>Form6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCarList.Designer.vb">
+      <DependentUpon>FrmCarList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCarList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCarBooking.designer.vb">
+      <DependentUpon>FrmCarBooking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCarBooking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoader.designer.vb">
+      <DependentUpon>frmLoader.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTABookingsCar.designer.vb">
+      <DependentUpon>frmTABookingsCar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTABookingsCar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTABookings.designer.vb">
+      <DependentUpon>frmTABookings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTABookings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTARegistration.designer.vb">
+      <DependentUpon>frmTARegistration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTARegistration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTAViewBookingsCar.designer.vb">
+      <DependentUpon>frmTAViewBookingsCar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTAViewBookingsCar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTAViewBookings.designer.vb">
+      <DependentUpon>frmTAViewBookings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTAViewBookings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oldcarlist.Designer.vb">
+      <DependentUpon>oldcarlist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="oldcarlist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHotelsList.designer.vb">
+      <DependentUpon>FrmHotelsList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHotelsList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNewOrExistingUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".Designer.vb">
+      <DependentUpon>FrmNewOrExistingUser.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFeedback.Designer.vb">
+      <DependentUpon>FrmFeedback.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFeedback.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDorsett.designer.vb">
+      <DependentUpon>FrmDorsett.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDorsett.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUserLogin.Designer.vb">
+      <DependentUpon>FrmUserLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUserLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConcorde.designer.vb">
+      <DependentUpon>FrmConcorde.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConcorde.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUserRegistration.Designer.vb">
+      <DependentUpon>FrmUserRegistration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUserRegistration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCeylonz.designer.vb">
+      <DependentUpon>FrmCeylonz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCeylonz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUserHomePage.Designer.vb">
+      <DependentUpon>FrmUserHomePage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUserHomePage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLeMeridien.designer.vb">
+      <DependentUpon>FrmLeMeridien.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLeMeridien.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUserProfile.Designer.vb">
+      <DependentUpon>FrmUserProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUserProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUserBookings.Designer.vb">
+      <DependentUpon>FrmUserBookings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUserBookings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPaymentDetails.Designer.vb">
+      <DependentUpon>FrmPaymentDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPaymentDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPaymentCard.Designer.vb">
+      <DependentUpon>FrmPaymentCard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPaymentCard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCancellation.Designer.vb">
+      <DependentUpon>FrmCancellation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCancellation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="OMC_TravelHopDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OMC_TravelHopDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgencyLogin.resx">
+      <DependentUpon>frmAgencyLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1user.resx">
+      <DependentUpon>Form1user.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainPage.resx">
+      <DependentUpon>frmMainPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2user.resx">
+      <DependentUpon>Form2user.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFourPoints.resx">
+      <DependentUpon>frmFourPoints.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCarList.resx">
+      <DependentUpon>FrmCarList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCarBooking.resx">
+      <DependentUpon>FrmCarBooking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoader.resx">
+      <DependentUpon>frmLoader.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTABookingsCar.resx">
+      <DependentUpon>frmTABookingsCar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTABookings.resx">
+      <DependentUpon>frmTABookings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTARegistration.resx">
+      <DependentUpon>frmTARegistration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTAViewBookingsCar.resx">
+      <DependentUpon>frmTAViewBookingsCar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTAViewBookings.resx">
+      <DependentUpon>frmTAViewBookings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oldcarlist.resx">
+      <DependentUpon>oldcarlist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHotelsList.resx">
+      <DependentUpon>FrmHotelsList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNewOrExistingUser.resx">
+      <DependentUpon>FrmNewOrExistingUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFeedback.resx">
+      <DependentUpon>FrmFeedback.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDorsett.resx">
+      <DependentUpon>FrmDorsett.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUserLogin.resx">
+      <DependentUpon>FrmUserLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConcorde.resx">
+      <DependentUpon>FrmConcorde.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUserRegistration.resx">
+      <DependentUpon>FrmUserRegistration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCeylonz.resx">
+      <DependentUpon>FrmCeylonz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUserHomePage.resx">
+      <DependentUpon>FrmUserHomePage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLeMeridien.resx">
+      <DependentUpon>FrmLeMeridien.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUserProfile.resx">
+      <DependentUpon>FrmUserProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUserBookings.resx">
+      <DependentUpon>FrmUserBookings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPaymentDetails.resx">
+      <DependentUpon>FrmPaymentDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPaymentCard.resx">
+      <DependentUpon>FrmPaymentCard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCancellation.resx">
+      <DependentUpon>FrmCancellation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="OMC_TravelHopDataSet.xsc">
+      <DependentUpon>OMC_TravelHopDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="OMC_TravelHopDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OMC_TravelHopDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="OMC_TravelHopDataSet.xss">
+      <DependentUpon>OMC_TravelHopDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo mini transparent.ico" />
+    <Content Include="logo mini.ico" />
+    <Content Include="OMC_TravelHop.accdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
